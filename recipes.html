@@ -8,7 +8,7 @@
 </head>
 <body>
     <header>
-        <a href = "#main-content">Skip to Main Content</a>
+        <a class="skip" href = "#main-content">Skip to Main Content</a>
 		<!-- Nav is a sematic tag page that aids accessibility -->
 		<nav>
 			<ul>
@@ -24,15 +24,19 @@
 	</header>
 
     <main id="main-content">
-    <div>
+    <div class = "cookies">
         <h2>Double Chocolate Cookies</h2>
-        <span>Origin: Michigan</span>
-        <span>Source: Family Recipe</span>
-        <span>Category: Dessert</span>
 
-        <img src="images/recipes/double_chocolate_cookies.png" width = "400" alt="">
+
+        <img src="images/recipes/double_chocolate_cookies.png" width = "400" alt="chocolate cookies">
+        <div class="info">
+            <span>Origin: Michigan</span>
+            <span>Source: Family Recipe</span>
+            <span>Category: Dessert</span>
+        </div>
         <p>My daughter learned to make these cookies at a baking camp at Zingermanns and has tweaked the recipe to fit the taste buds of her siblings.  They are extremely sugary so the salt helps to balance it.  Note, these cookies are best eaten very quickly.</p>
-        <h3>Recipe Ingredients</h3>
+        <div class="recipes">
+            <h3>Recipe Ingredients</h3>
         <ul>
             <li>Unsalted butter</li>
             <li>Granulated Sugar</li>
@@ -58,46 +62,50 @@
             <li>Form 15 cookies and place on a baking sheet.</li>
             <li>Cook for 12 to 13 minutes at 350 degrees.</li>
         </ol>
+        </div>
+        
 
         <h3>Additional Food images</h3>
-        <img src="images/recipes/double_chocolate_chips.png" width = "200" alt="A small pile of chocolate chips">
         <img src="https://images.immediate.co.uk/production/volatile/sites/30/2020/08/chocolate-d9ba778.jpg?quality=90&webp=true&resize=600,545" width = "200" alt="Chocolate melting in a boiler">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/8/82/Brown_sugar_examples.JPG" width = "200" alt="Brown sugar in three different shades of darkness">
         <footer>
             <p>Colleen van Lent &copy; 2023</p>
         </footer>
         <!-- Colleen van Lent -->
 
     </div>
-    <div>
-        <h2>Swedish Panckaes</h2>
-        <span>Origin: Sweden</span>
-        <span>Source: Kristi, <a href="https://true-north-kitchen.com/swedish-pancakes-with-lingonberries/">True-north-kitchen</a></span>
-        <span>Category: Breakfast</span>
-
+    <div class = Pancakes>
+        <h2>Swedish Pancakes</h2>
         <img src="images/recipes/food2/swedish-pancakes-platted.jpeg" width = "400" alt="">
+        <div class="info">
+            <span>Origin: Sweden</span>
+            <span>Source: Kristi, <a href="https://true-north-kitchen.com/swedish-pancakes-with-lingonberries/">True-north-kitchen</a></span>
+            <span>Category: Breakfast</span>
+        </div>
         <p>Swedish pancakes (Pannkaka [singular] or Pannkakor [plural] in Swedish) are one of the most well-known Scandinavian delicacies, and rightfully so. Tender, buttery and often served with butter and lingonberry jam, there is much to account for their popularity.</p>
-        <h3>Recipe Ingredients</h3>
-        <ul>
-            <li>Butter</li>
-            <li>Granulated Sugar</li>
-            <li>Large egg</li>
-            <li>Pure vanilla extract</li>
-            <li>Milk</li>
-            <li>All-purpose flour</li>
-            <li>Baking soda</li>
-            <li>Salt</li>
-        </ul>
+        <div class="recipes">
+            <h3>Recipe Ingredients</h3>
+            <ul>
+                <li>Butter</li>
+                <li>Granulated Sugar</li>
+                <li>Large egg</li>
+                <li>Pure vanilla extract</li>
+                <li>Milk</li>
+                <li>All-purpose flour</li>
+                <li>Baking soda</li>
+                <li>Salt</li>
+            </ul>
+    
+            <h3>Recipe Steps</h3> 
+            <ol>
+                <li>Combine all ingredients in a blender and blend until completely smooth.Transfer to the refrigerator to rest for at least 2 hours or up to 2 days.</li>
+                <li>Preheat the oven to 200 degrees if you plan to eat the pannkakor right away.  Heat a 10 inch nonstick skillet over medium heat.</li>
+                <li>Stir the butter briefly to recombine. Brush skillet with melted butter.  Pick the skillet up off of the burner and quickly add ¼ cup of butter.</li>
+                <li>Immediately begin swirling the batter around the skillet so that it coats the bottom of the pan.</li>
+                <li>Continue swirling until the batter is just set. Return skillet to the burner.</li>
+                <li>Cook until the pancake is golden brown in spots on the bottom, about 30 seconds.</li> 
+            </ol>
+        </div>
 
-        <h3>Recipe Steps</h3> 
-        <ol>
-            <li>Combine all ingredients in a blender and blend until completely smooth.Transfer to the refrigerator to rest for at least 2 hours or up to 2 days.</li>
-            <li>Preheat the oven to 200 degrees if you plan to eat the pannkakor right away.  Heat a 10 inch nonstick skillet over medium heat.</li>
-            <li>Stir the butter briefly to recombine. Brush skillet with melted butter.  Pick the skillet up off of the burner and quickly add ¼ cup of butter.</li>
-            <li>Immediately begin swirling the batter around the skillet so that it coats the bottom of the pan.</li>
-            <li>Continue swirling until the batter is just set. Return skillet to the burner.</li>
-            <li>Cook until the pancake is golden brown in spots on the bottom, about 30 seconds.</li> 
-        </ol>
 
         <h3>Additional Food images</h3>
         <img src="images/recipes/food2/swedish-pancakes-pan.jpeg" width = "200" alt="A pancake in a pan.">
@@ -106,15 +114,20 @@
         </footer>
         <!--Alyssa Sklar -->
     </div>
-    <div>
+    <div class = Spaghetti>
         <h2>Spaghetti</h2>
-        <span>Origin: Italy</span>
-        <span>Source: Family Recipe</span>
-        <span>Category: Main Dish</span>
+
+
 
         <img src="images/recipes/food3/spaghetti.jpg" width = "400" alt="">
+        <div class="info">
+            <span>Origin: Italy</span>
+            <span>Source: Family Recipe</span>
+            <span>Category: Main Dish</span>
+        </div>
         <p>This is a simple recipe perfect for anyone who loves spaghetti. It would also go great with some cheese.</p>
-        <h3>Recipe Ingredients</h3>
+        <div class="recipes">
+            <h3>Recipe Ingredients</h3>
         <ul>
             <li>Dry spaghetti noodles</li>
             <li>Pasta Sause</li>
@@ -127,6 +140,8 @@
             <li>Add the spaghetti noodles to the pan and cook according to the packaging instruction.</li>
             <li>Once the noodles are cooked, plate on a pan and add cheese on top.</li>
         </ol>
+        </div>
+        
 
         <h3>Additional Food images</h3>
         <img src="https://images.immediate.co.uk/production/volatile/sites/30/2018/07/RedPepperAnchovySpaghetti-copy-1dec261.jpg" width = "200" alt="Spaghetti in a black plate">
